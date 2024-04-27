@@ -1,0 +1,126 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: 55%;
+  margin: 30px auto 30px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+
+.image-container,
+section {
+  width: 90%;
+  margin: 20px auto;
+  line-height: 25px;
+  padding: 10px;
+}
+
+img {
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image-container {
+  margin-top: 30px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+
+.prep h2 {
+  padding-left: 20px;
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+}
+
+li {
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#ingredients,
+#instructions {
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+}
+
+div {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  display: flex;
+  flex-direction: row;
+}
+
+.item,
+.amount {
+  width: 50%;
+}
+
+div:last-child {
+  border-bottom: none;
+}
+
+.item {
+  margin-left: 40px;
+}
+
+.amount {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  margin-left: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 8px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .image-container,
+  img {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
